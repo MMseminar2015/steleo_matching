@@ -21,7 +21,7 @@ namespace stereo_matching
         {
             label1.Text = "Hello World";
             // ファイルから画像読み込み
-            var img = OpenCV.Net.CV.LoadImage(@"C:\Users\Ohara Kazuya\Pictures\Universe-wallpapers-high-resolution-free-9.jpg", OpenCV.Net.LoadImageFlags.AnyColor);
+            var img = OpenCV.Net.CV.LoadImage(@"\\k-nas1\share\MM演習\2015\sample.jpg", OpenCV.Net.LoadImageFlags.AnyColor);
             // エッジ画像格納用の変数作成
             var dst = img.Clone();
 
