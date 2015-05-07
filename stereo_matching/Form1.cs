@@ -16,6 +16,9 @@ namespace stereo_matching
         public Form1()
         {
             InitializeComponent();
+
+            pictureBoxL.Image = new Bitmap(@"\\k-nas1\share\MM演習\2015\stereo\scene1.row3.colL.png");
+            pictureBoxR.Image = new Bitmap(@"\\k-nas1\share\MM演習\2015\stereo\scene1.row3.colR.png");
         }
 
         private void button1_Click(object sender, EventArgs e)
