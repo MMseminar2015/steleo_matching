@@ -39,6 +39,7 @@ namespace stereo_matching
 
             // キー入力待ち
             OpenCV.Net.CV.WaitKey(0);
+
         }
     }
 }
