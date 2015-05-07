@@ -27,28 +27,6 @@ namespace stereo_matching
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //{
-            //    label1.Text = "Hello World";
-            //    // ファイルから画像読み込み
-            //    var img = OpenCV.Net.CV.LoadImage(@"\\k-nas1\share\MM演習\2015\sample.jpg", OpenCV.Net.LoadImageFlags.AnyColor);
-            //    // エッジ画像格納用の変数作成
-            //    var dst = img.Clone();
-
-            //    // sobelフィルタ適用
-            //    OpenCV.Net.CV.Sobel(img, dst, 1, 1);
-
-            //    // 原画用のウインドウ生成
-            //    var windowOrg = new OpenCV.Net.NamedWindow("原画");
-            //    // 原画表示
-            //    windowOrg.ShowImage(img);
-            //    // エッジ用のウィンドウ生成
-            //    var windowEdge = new OpenCV.Net.NamedWindow("エッジ");
-            //    // エッジ表示
-            //    windowEdge.ShowImage(dst);
-
-            //    // キー入力待ち
-            //    OpenCV.Net.CV.WaitKey(0);
-            //}
             {
                 // 入力画像の読み込み
                 using (IplImage imgLeft = new IplImage(left, LoadMode.GrayScale))
