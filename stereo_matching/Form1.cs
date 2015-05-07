@@ -13,12 +13,16 @@ namespace stereo_matching
 {
     public partial class Form1 : Form
     {
+
+        string left = @"\\k-nas1\share\MM演習\2015\stereo\scene1.row3.colL.png";
+        string right = @"\\k-nas1\share\MM演習\2015\stereo\scene1.row3.colR.png";
+
         public Form1()
         {
             InitializeComponent();
 
-            pictureBoxL.Image = new Bitmap(@"\\k-nas1\share\MM演習\2015\stereo\scene1.row3.colL.png");
-            pictureBoxR.Image = new Bitmap(@"\\k-nas1\share\MM演習\2015\stereo\scene1.row3.colR.png");
+            pictureBoxL.Image = new Bitmap(left);
+            pictureBoxR.Image = new Bitmap(right);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -47,8 +51,8 @@ namespace stereo_matching
             //}
             {
                 // 入力画像の読み込み
-                using (IplImage imgLeft = new IplImage(@"\\k-nas1\share\MM演習\2015\stereo\scene1.row3.colL.png", LoadMode.GrayScale))
-                using (IplImage imgRight = new IplImage(@"\\k-nas1\share\MM演習\2015\stereo\scene1.row3.colR.png", LoadMode.GrayScale))
+                using (IplImage imgLeft = new IplImage(left, LoadMode.GrayScale))
+                using (IplImage imgRight = new IplImage(right, LoadMode.GrayScale))
                 {
                     // 視差画像, 出力画像の領域を確保
                     using (IplImage dispBM = new IplImage(imgLeft.Size, BitDepth.S16, 1))
