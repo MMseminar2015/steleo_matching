@@ -13,7 +13,6 @@ namespace stereo_matching
 {
     public partial class Form1 : Form
     {
-        //test
         string left = @"\\k-nas1\share\MM演習\2015\stereo\scene1.row3.colL.png";
         string right = @"\\k-nas1\share\MM演習\2015\stereo\scene1.row3.colR.png";
 
