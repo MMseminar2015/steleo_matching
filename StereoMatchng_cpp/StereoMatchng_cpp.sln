@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StereoMatchng_cpp", "StereoMatchng_cpp\StereoMatchng_cpp.vcxproj", "{BAB01515-F174-4EDE-A4BC-D8519BD1E35A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAB01515-F174-4EDE-A4BC-D8519BD1E35A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BAB01515-F174-4EDE-A4BC-D8519BD1E35A}.Debug|Win32.Build.0 = Debug|Win32
+		{BAB01515-F174-4EDE-A4BC-D8519BD1E35A}.Release|Win32.ActiveCfg = Release|Win32
+		{BAB01515-F174-4EDE-A4BC-D8519BD1E35A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
